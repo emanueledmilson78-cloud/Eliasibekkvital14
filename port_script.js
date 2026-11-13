@@ -1,0 +1,5 @@
+let data = new Date ()
+let _dia = data.getHours()
+let _mes = data.getMinutes()
+let _ano = data.getSeconds()
+window.alert(`Página carregada com sucesso às ${_dia}:${_mes}:${_ano}`)
